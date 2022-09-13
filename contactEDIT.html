@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kenneth L. Davis">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Final Project</title>
+    
+
+
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80');
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+            background-position: center;
+        }
+              
+             
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 600px;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+          color: white;
+          background-color: #011b9a;
+          opacity: 0.5;
+        }
+        
+        input[type=submit] {
+          background: #011b9a;
+          border: 1px solid #ccc;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=reset] {
+          background:#011b9a;
+          border: 1px solid #ccc;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+
+        }
+
+        input[type=reset]:hover {
+          background-color: #45a049;
+        }
+
+
+        .container {
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact-container {
+            background-color: hsla(201, 100%, 6%, 0.6);
+            padding: 30px 20px;
+            min-width: 400px;
+            width: 50%;
+            max-width: 650px;
+            justify-content: center;
+            border-radius: 5px; 
+            border: 1px solid #ccc;
+        }
+        </style>
+
+
+
+</head>
+<body>
+
+    <header>
+        <nav>
+          <ul>
+            <div><a href="index.html" target="blank"><img src="img/1.png" style="width:120px; height:70px;"></a></div>
+            <li><a href="about.html" target="blank" style="font-size:30px; scrollbar-highlight-color: navy;">About</a></li>
+            <li><a href="contact.html" target="blank" style="font-size:30px;">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+  
+  <h1 style="text-align:center; color: #011b9a; margin: 85px; font-size: 70px; text-shadow: 2px 2px 6px #ffffff;">Contact BitWise Industries</h1>
+
+
+
+  <div class="container">
+    <div class="contact-container">
+    <form action="/action_page.php">
+      <label for="fname" style="color:#ffffff; font-size: 25px;">First Name</label><br>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+  
+      <label for="lname" style="color:#ffffff; font-size: 25px;">Last Name</label><br>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+  
+      <label for="country" style="color: #ffffff; font-size: 25px;">Country</label><br>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Africa</option>
+        <option value="canada">Ghana</option>
+        <option value="usa">Cortz Divore</option>
+        <option value="australia">Germany</option>
+        <option value="canada">France</option>
+        <option value="usa">Japan</option>
+        <option value="australia">South Korea</option>
+        <option value="canada">China</option>
+        <option value="usa">Hawaii</option>
+        <option value="usa">USA</option>
+
+      </select><br>
+  
+      <label for="subject" style="color:#ffffff; font-size: 25px;">Message</label><br>
+      <textarea id="subject" name="subject" placeholder="Enter Message.." style="height:120px"></textarea><br>
+  
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+    </div>
+  </div> 
+
+
+
+  <div class="footer">
+    <div class="row">
+        <div class="column" style="text-align: center;">
+          <h4 style="color:chartreuse">BUSINESS ADDRESS</h4>
+          <p style="text-align: center;">13727 SW 152 Street #825<br>
+             Miami, FL 33177<br>
+             Cell: (916) 583-3900<br>
+             Fax: (999) 555-1212<br>
+             info@powernetwork.tv<br><br><br><br>
+             &copy; Copyright All Rights Reserved.</p>
+        </div>
+        <div class="column" style="text-align: center;">
+          <h4 style="color:darkorange">LISTEN ON PODCAST</h4>
+          <p style="text-align: center;"><a href="https://open.spotify.com/show/1jEfFcgngruTIeRapMfsZ2" target="_blank" style="color: #ffffff;">Spotify</a><br><br>
+            <a href="https://www.iheart.com/podcast/269-powernetwork-90261456" target="_blank" style="color: #ffffff;">iHeartRADIO</a><br><br>
+            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9tZWRpYS5yc3MuY29tL3Bvd2VybmV0d29ya3R2L2ZlZWQueG1s" target="_blank" style="color: #ffffff;">Google Podcast</a><br><br>
+            <a href="https://podcasts.apple.com/us/podcast/powernetwork/id1598766990" target="_blank" style="color: #ffffff;">iTunes</a><br><br>
+            <a href="https://music.amazon.com/podcasts/c2a4c4f3-e88a-43db-87c3-b2d1e9b758d3/powernetwork" target="_blank" style="color: #ffffff;">Amazon Music</a></p>
+        </div>
+        <div class="column" style="text-align: center;">
+          <h4 style="color:yellow">INFORMATION</h4>
+          <p style="text-align: center;"><a href="about.html" target="_blank" style="color: #ffffff;">About Us</a><br><br>
+            <a href="http://www.tdmonline.org" target="_blank" style="color: #ffffff;">T.D. Ministries</a><br><br>
+            <a href="http://www.eftuonline.org" target="_blank" style="color: #ffffff;">E.F.T.U.</a><br><br>
+            <a href="http://www.powernetwork.tv" target="_blank" style="color: #ffffff;">PowerNetwork</a><br><br>
+            <a href="contact.html" target="_blank" style="color: #ffffff;">Contact Us</a></p>
+        </div>
+        <div class="column" style="text-align: center;">
+          <h4 style="color:#00acee">FOLLOW US ON SOCIAL MEDIA
+            <div style="margin: 1px"></div> 
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-skype"></a></h4>
+
+          <!--<h4 style="color:#ff0000">SUBSCRIBE TO OUR NEWSLETTER</h4>--> 
+            <div style="margin: 1px"></div>
+            <button>Subscribe To Our Newsletter</button>
+            <div style="margin: 1px"></div>
+            <input type="email" name="email" placeholder="user@example.com">
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+  /* CHANGE BACKGROUND COLOR IN AUDIO */
+  audio::-webkit-media-controls-play-button,
+  audio::-webkit-media-controls-panel {
+  background-color: #1abc9c;
+  color: #1abc9c;
+  }
+
+
+/* PHOTOS */
+  .flex-container2 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container2 > div {
+    margin: 25px;
+    box-shadow: 10px 10px 5px #5c5a5a;
+   
+
+  }
+
+ 
+  body {
+  font-size: 15px;
+  font-family:quicksand, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1abc9c;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+
+
+li {
+  float: left;
+  margin:15px;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 0, 0);
+
+}
+
+
+
+h1 {
+text-align: center;
+}
+
+p {
+/* top margin is 25px right margin is 150px bottom margin is 75px left margin is 150px  */
+margin: 25px 150px 75px 150px;
+text-align: justify;
+}
+
+
+
+
+/*  SOCIAL MEDIA ICONS  */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/*input[type=submit]:hover {
+  background-color: #45a049;
+
+}*/
+
+.fa-facebook {
+  /*background: #3B5998;*/
+  color: white;
+}
+
+.fa-facebook:hover {
+  /*background: #3B5998;*/
+  color: #1778f2;
+  font-size: 55px;
+}
+
+.fa-twitter {
+  /*background: #55ACEE;*/
+  color: white;
+}
+
+.fa-twitter:hover {
+  /*background: #55ACEE;*/
+  color: #00acee;
+  font-size: 55px;
+}
+
+
+.fa-youtube {
+/*background: #bb0000;*/
+color: white;
+}
+
+.fa-youtube:hover {
+  /*background: #bb0000;*/
+  color: #ff0000;
+  font-size: 55px;
+  }
+
+.fa-instagram {
+  /*background: #125688;*/
+  color: white;
+}
+
+.fa-instagram:hover {
+  /*background: #125688;*/
+  color: #ff0bf3;
+  font-size: 55px;
+}
+
+.fa-skype {
+  /*background: #00aff0;*/
+  color: white;
+}
+
+.fa-skype:hover {
+  /*background: #00aff0;*/
+  color: #2dc6ff;
+  font-size: 55px; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(28, 213, 102);
+    color: white;
+    /*text-align: center;*/
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+  
+
+
+
+
+/*  ENHANCE THE IMAGES  */
+img {
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 5px;
+  /*width: 550px;
+  height: 300px;*/
+  box-shadow: 0 0 2px 1px #1abc9c;
+}
+
+
+/* PHOTOS */
+.flex-container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container1 > div {
+  margin: 25px;
+  /*box-shadow: 10px 10px 5px #5c5a5a;*/
+}
+
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule: 4px double #1abc9c;
+}
+
+.link-it:hover {
+  text-shadow: 2px 2px 6px rgb(0, 255, 60);
+  color: #fff;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content:center;
+  }
+  
+
+   /* Create four equal columns that sits next to each other */
+   .column {
+    flex: 100%;
+    padding: 0px;
+    margin: 6px;
+    background-color:rgb(0, 0, 0);
+    height: 250px; /* Should be removed. Only for demonstration */
+  } 
+  
+  
+
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         height: 250px;
+         background-color: black;
+         color: white;
+         /*text-align: center;*/
+      }
+
+      button {
+        color:#fff;
+        background-color: #ff0000;
+        padding: 16px 35px;
+        font-size: 16px;
+    }
+
+    #lineht {
+        line-height: 1.2;
+    }
+
